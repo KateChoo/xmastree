@@ -69,6 +69,15 @@ function doFirst(){
     context.fill(); 
     context.closePath();
 
+    /**============trunk=============== */
+    context.beginPath();
+    context.fillStyle='rgb(101,67,33)';
+
+    context.fillRect(400, 700, 200, 200);
+    
+    context.fill(); 
+    context.closePath();
+    
     /**============text=============== */
     context.beginPath();
     context.fillStyle='blue';
