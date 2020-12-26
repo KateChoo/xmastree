@@ -81,4 +81,4 @@ function doFirst(){
 }
 
 window.addEventListener('load', doFirst);
-window.addEventListener('load', doSecond);
+//window.addEventListener('load', doSecond);
