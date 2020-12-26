@@ -55,7 +55,6 @@ function doFirst(){
     context.beginPath();
     context.fillStyle='red';
 
-    //context.arc(x, y, radius, Math.PI / 180 * startAngle, Math.PI / 180 * endAngle, anticlockwise);
     context.arc(500, 500, 20, 0, Math.PI*2, true); 
     context.arc(600, 600, 20, 0, Math.PI*2, true);
     context.arc(400, 400, 20, 0, Math.PI*2, true);
